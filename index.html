@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RNA</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+
+<section class="hero is-fullheight is-primary">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="title is-2">
+          Reconhecendo padrões com <strong>redes neurais artificiais</strong>
+      </div>
+      <h4 class="subtitle is-4">Jean Bairro e Yagan Cadorin</h4>
+    </div>
+  </div>
+</section>
+
+<div class="artrite">
+	<section class="hero is-default">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="title is-4">
+					Reconhecimento da <strong>artrite</strong> (resultados)
+				</div>
+				<ul class="has-text-left">
+					<li>Erro: <span class="erro"></span></li>
+					<li>Iterações: <span class="iteracoes"></span></li>
+					<li>Tempo (ms): <span class="tempo"></span></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="title is-5 has-text-centered">
+			Parâmetros
+		</div>
+		<div class="columns">
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input erroAceitavel" type="text" placeholder="Erro aceitável">
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input quantidadeMaximaDeIteracoes" type="text" placeholder="Quantidade máx. iterações">
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input quantidadeOculta" type="text" placeholder="Quantidade oculta">
+					</p>
+				</div>	
+			</div>
+			<div class="column">
+				<div class="field is-grouped">
+					<p class="control">
+						<input class="input taxa" type="text" placeholder="Taxa">
+					</p>
+					<p class="control">
+					    <a class="button is-info recalcular">
+					      Recalcular
+					    </a>
+			  		</p>
+				</div>	
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Número</th>
+					<th>Entradas</th>
+					<th>Saídas esperadas</th>
+					<th>Saídas</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>Número</th>
+					<th>Entradas</th>
+					<th>Saídas esperadas</th>
+					<th>Saídas</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="florDeLis">
+	<section class="hero is-default">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="title is-4">
+					Reconhecimento da <strong>flor-de-lis</strong> (resultados)
+				</div>
+				<ul class="has-text-left">
+					<li>Erro: <span class="erro"></span></li>
+					<li>Iterações: <span class="iteracoes"></span></li>
+					<li>Tempo (ms): <span class="tempo"></span></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="title is-5 has-text-centered">
+			Parâmetros
+		</div>
+		<div class="columns">
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input erroAceitavel" type="text" placeholder="Erro aceitável">
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input quantidadeMaximaDeIteracoes" type="text" placeholder="Quantidade máx. iterações">
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="field">
+					<p class="control">
+						<input class="input quantidadeOculta" type="text" placeholder="Quantidade oculta">
+					</p>
+				</div>	
+			</div>
+			<div class="column">
+				<div class="field is-grouped">
+					<p class="control">
+						<input class="input taxa" type="text" placeholder="Taxa">
+					</p>
+					<p class="control">
+					    <a class="button is-info recalcular">
+					      Recalcular
+					    </a>
+			  		</p>
+				</div>	
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Número</th>
+					<th>Entradas</th>
+					<th>Saídas esperadas</th>
+					<th>Saídas</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>Número</th>
+					<th>Entradas</th>
+					<th>Saídas esperadas</th>
+					<th>Saídas</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/synaptic/1.0.10/synaptic.js"></script>
+<script src="app/data.js"></script>
+<script src="app/neural.js"></script>
+<script src="app/main.js"></script>
+</body>
+</html>
