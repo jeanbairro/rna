@@ -56,8 +56,8 @@ var treino = trainer.train(_self.unidadesDeTreino, {
 
 Esta função recebe alguns parâmetros (acima), que tem as seguintes funções:
 
-**rate**: Taxa de aprendizado da rede.
-**iterations**: Número máximo de iterações (não serão todos utilizados caso o erro seja atingido precocemente).
-**error**: Erro mínimo ou erro aceitável.
-**shuffle**: Define se o conjunto de treinamento é ordenado de forma aleatória ou não.
-**cost**: Funcão de custo utilizada para o treinamento.
+* **rate**: Taxa de aprendizado da rede.
+* **iterations**: Número máximo de iterações (não serão todos utilizados caso o erro seja atingido precocemente).
+* **error**: Erro mínimo ou erro aceitável.
+* **shuffle**: Define se o conjunto de treinamento é ordenado de forma aleatória ou não.
+* **cost**: Funcão de custo utilizada para o treinamento.
