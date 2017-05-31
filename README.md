@@ -34,7 +34,9 @@ return new Network({
 
 Após a criação da rede neural, foram definidos os conjuntos de treinamento. Para definir estes conjuntos, foi utilizada uma metodologia afim de distribuir os casos de maneira igual, para treinar as redes de maneira justa (dá pra melhorar essa frase).
 
-A metodologia foi implementada por meio de um algoritmo, que distribui os casos de maneira igual em um conjunto de treinamento, classificando pelos tipos de artrite, ou no caso da segunda rede, pelos tipos de flor-de-lis. Afim de que o número de casos de flor-de-lis setosa, por exemplo, seja igual ao número de casos de flor-de-lis versicolor e flor-de-lis virginia, no conjunto de treinamento.
+A metodologia foi implementada por meio de um algoritmo, que distribui os casos de maneira igual em um conjunto de treinamento, classificando pelos tipos de artrite, ou no caso da segunda rede, pelos tipos de flor-de-lis. 
+
+Afim de que o número de casos de flor-de-lis setosa, por exemplo, seja igual ao número de casos de flor-de-lis versicolor e flor-de-lis virginia, no conjunto de treinamento.
 
 Ao total foram selecionados trinta casos de artrite, e cem casos de flor-de-lis para as respectivas redes.
 
