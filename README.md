@@ -1,8 +1,6 @@
 # Classificação com redes neurais artificiais
 Trabalho de redes neurais artificiais
 
-***Yagan: Não sei se nossas redes são mais de classificação ou de reconhecimento de padrões.***
-
 ## Biblioteca
 
 Para criar as redes neurais, utilizamos uma biblioteca chamada Synaptic. Synaptic é uma biblioteca gratuita de rede neural, escrita em javascrit, para node.js e navegadores. A biblioteca possibilita a criação e treinamento de redes neurais em geral.
